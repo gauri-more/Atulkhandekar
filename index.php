@@ -601,12 +601,25 @@ require('header.php');
 
                             <div class="col-xl-3 col-lg-4 col-md-6 col-12 gallery-item" data-category="live-concerts">
                                 <div class="gallery-box">
-                                    <a href="assets/images/inner-img/atul-khandekar-banner.png" class="gallery-popup" title="Live Concert Performance">
-                                        <img src="assets/images/inner-img/atul-khandekar-banner.png" alt="Live Concert Performance">
+                                    <a href="assets/images/gallery/img17.jpg" class="gallery-popup" title="In Concert">
+                                        <img src="assets/images/gallery/img17.jpg" alt="In Concert">
                                         <span class="zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
                                     </a>
                                     <div class="gallery-content">
-                                        <h4>Live Concert Performance</h4>
+                                        <h4>In Concert</h4>
+                                        <span>Live Concerts</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-3 col-lg-4 col-md-6 col-12 gallery-item" data-category="live-concerts">
+                                <div class="gallery-box">
+                                    <a href="assets/images/gallery/img21.jpg" class="gallery-popup" title="In Concert At Gangapur">
+                                        <img src="assets/images/gallery/img21.jpg" alt="In Concert At Gangapur">
+                                        <span class="zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+                                    </a>
+                                    <div class="gallery-content">
+                                        <h4>In Concert At Gangapur</h4>
                                         <span>Live Concerts</span>
                                     </div>
                                 </div>
@@ -614,12 +627,25 @@ require('header.php');
 
                             <div class="col-xl-3 col-lg-4 col-md-6 col-12 gallery-item" data-category="classical-performances">
                                 <div class="gallery-box">
-                                    <a href="assets/images/inner-img/atul-khandekar-about.jpg" class="gallery-popup" title="Hindustani Classical Recital">
-                                        <img src="assets/images/inner-img/atul-khandekar-about.jpg" alt="Hindustani Classical Recital">
+                                    <a href="assets/images/gallery/guruimg3.jpg" class="gallery-popup" title="Guru Dr. Veena Sahasrabuddhe">
+                                        <img src="assets/images/gallery/guruimg3.jpg" alt="Guru Dr. Veena Sahasrabuddhe">
                                         <span class="zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
                                     </a>
                                     <div class="gallery-content">
-                                        <h4>Hindustani Classical Recital</h4>
+                                        <h4>Guru Dr. Veena Sahasrabuddhe</h4>
+                                        <span>Classical Performances</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-3 col-lg-4 col-md-6 col-12 gallery-item" data-category="classical-performances">
+                                <div class="gallery-box">
+                                    <a href="assets/images/gallery/guruimg1.jpg" class="gallery-popup" title="Grandmother Smt. Manik Bhat">
+                                        <img src="assets/images/gallery/guruimg1.jpg" alt="Grandmother Smt. Manik Bhat">
+                                        <span class="zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+                                    </a>
+                                    <div class="gallery-content">
+                                        <h4>Grandmother Smt. Manik Bhat</h4>
                                         <span>Classical Performances</span>
                                     </div>
                                 </div>
@@ -627,12 +653,25 @@ require('header.php');
 
                             <div class="col-xl-3 col-lg-4 col-md-6 col-12 gallery-item" data-category="television-shows">
                                 <div class="gallery-box">
-                                    <a href="assets/images/inner-img/atul-khandekar-banner.jpg" class="gallery-popup" title="Television Music Show">
-                                        <img src="assets/images/inner-img/atul-khandekar-banner.jpg" alt="Television Music Show">
+                                    <a href="assets/images/gallery/natakimg1.jpg" class="gallery-popup" title="As A Sutradhar">
+                                        <img src="assets/images/gallery/natakimg1.jpg" alt="As A Sutradhar">
                                         <span class="zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
                                     </a>
                                     <div class="gallery-content">
-                                        <h4>Television Music Show</h4>
+                                        <h4>As A Sutradhar</h4>
+                                        <span>Television Shows</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-3 col-lg-4 col-md-6 col-12 gallery-item" data-category="television-shows">
+                                <div class="gallery-box">
+                                    <a href="assets/images/gallery/natakimg3.jpg" class="gallery-popup" title="Sangeet Natak Performance">
+                                        <img src="assets/images/gallery/natakimg3.jpg" alt="Sangeet Natak Performance">
+                                        <span class="zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+                                    </a>
+                                    <div class="gallery-content">
+                                        <h4>Sangeet Natak Performance</h4>
                                         <span>Television Shows</span>
                                     </div>
                                 </div>
@@ -640,12 +679,25 @@ require('header.php');
 
                             <div class="col-xl-3 col-lg-4 col-md-6 col-12 gallery-item" data-category="music-festivals">
                                 <div class="gallery-box">
-                                    <a href="assets/images/inner-img/about-family.jpg" class="gallery-popup" title="Music Festival Gathering">
-                                        <img src="assets/images/inner-img/about-family.jpg" alt="Music Festival Gathering">
+                                    <a href="assets/images/gallery/img25.jpg" class="gallery-popup" title="To Rajhansa Ek... Program">
+                                        <img src="assets/images/gallery/img25.jpg" alt="To Rajhansa Ek... Program">
                                         <span class="zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
                                     </a>
                                     <div class="gallery-content">
-                                        <h4>Music Festival Gathering</h4>
+                                        <h4>To Rajhansa Ek... Program</h4>
+                                        <span>Music Festivals</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-3 col-lg-4 col-md-6 col-12 gallery-item" data-category="music-festivals">
+                                <div class="gallery-box">
+                                    <a href="assets/images/gallery/img26.jpg" class="gallery-popup" title="Performing Balgandharva Gayaki">
+                                        <img src="assets/images/gallery/img26.jpg" alt="Performing Balgandharva Gayaki">
+                                        <span class="zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+                                    </a>
+                                    <div class="gallery-content">
+                                        <h4>Performing Balgandharva Gayaki</h4>
                                         <span>Music Festivals</span>
                                     </div>
                                 </div>
@@ -672,32 +724,6 @@ require('header.php');
                                     </a>
                                     <div class="gallery-content">
                                         <h4>Akashvani Award</h4>
-                                        <span>Awards &amp; Honours</span>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-xl-3 col-lg-4 col-md-6 col-12 gallery-item" data-category="awards-honours">
-                                <div class="gallery-box">
-                                    <a href="assets/images/inner-img/award-3.jpg" class="gallery-popup" title="Prestigious Puraskars">
-                                        <img src="assets/images/inner-img/award-3.jpg" alt="Prestigious Puraskars">
-                                        <span class="zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
-                                    </a>
-                                    <div class="gallery-content">
-                                        <h4>Prestigious Puraskars</h4>
-                                        <span>Awards &amp; Honours</span>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-xl-3 col-lg-4 col-md-6 col-12 gallery-item" data-category="awards-honours">
-                                <div class="gallery-box">
-                                    <a href="assets/images/inner-img/award-4.jpg" class="gallery-popup" title="International Recognition">
-                                        <img src="assets/images/inner-img/award-4.jpg" alt="International Recognition">
-                                        <span class="zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
-                                    </a>
-                                    <div class="gallery-content">
-                                        <h4>International Recognition</h4>
                                         <span>Awards &amp; Honours</span>
                                     </div>
                                 </div>
