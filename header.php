@@ -188,7 +188,7 @@
                                             <a href="about.html">About us</a>
                                         </li>
                                    <li>
-                                            <a href="index.php">Gallery </a>
+                                            <a href="gallery.php">Gallery </a>
                                         </li>
                                          <li>
                                             <a href="index.php">Awards </a>

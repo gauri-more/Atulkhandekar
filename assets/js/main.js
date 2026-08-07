@@ -95,6 +95,45 @@
         type: "iframe",
         callbacks: {},
       });
+
+      /* ================================
+       Gallery Filter & Popup Js Start
+    ================================ */
+      if ($(".gallery-section").length > 0) {
+
+        function bindGalleryPopup($items) {
+            $(".gallery-popup").off("click.magnificPopup");
+            $items.magnificPopup({
+                type: "image",
+                gallery: {
+                    enabled: true,
+                },
+                image: {
+                    titleSrc: "title",
+                },
+            });
+        }
+
+        bindGalleryPopup($(".gallery-item .gallery-popup"));
+
+        $(".gallery-filter li").on("click", function () {
+            const filterValue = $(this).attr("data-filter");
+
+            $(".gallery-filter li").removeClass("active");
+            $(this).addClass("active");
+
+            $(".gallery-item").each(function () {
+                const isMatch = filterValue === "all" || $(this).attr("data-category") === filterValue;
+                $(this).toggleClass("gallery-item-hide", !isMatch);
+            });
+            $(".gallery-item:not(.gallery-item-hide)").stop(true, true).fadeIn(400);
+            $(".gallery-item.gallery-item-hide").stop(true, true).fadeOut(400);
+
+            setTimeout(function () {
+                bindGalleryPopup($(".gallery-item:not(.gallery-item-hide) .gallery-popup"));
+            }, 450);
+        });
+      }
   
       /* ================================
        Counterup Js Start
