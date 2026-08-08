@@ -41,7 +41,7 @@ require('header.php');
 </p>
                                                 </div>
                                                 <div class="hero-button">
-                                                    <a href="about.html" class="theme-btn">
+                                                    <a href="about.php" class="theme-btn">
                                                         <span class="btn-arrow-left"> <i class="fa-solid fa-arrow-up-right"></i> </span>
                                                         <span class="btn-title">Find Out More</span>
                                                         <span class="btn-arrow-right"> <i class="fa-solid fa-arrow-up-right"></i> </span>
@@ -70,7 +70,7 @@ require('header.php');
 </p>
                                                 </div>
                                                 <div class="hero-button">
-                                                    <a href="about.html" class="theme-btn">
+                                                    <a href="about.php" class="theme-btn">
                                                         <span class="btn-arrow-left"> <i class="fa-solid fa-arrow-up-right"></i> </span>
                                                         <span class="btn-title">Find Out More</span>
                                                         <span class="btn-arrow-right"> <i class="fa-solid fa-arrow-up-right"></i> </span>

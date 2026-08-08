@@ -89,7 +89,7 @@
                                         </div>
                                         <ul class="list-area">
                                             <li>
-                                                <a href="about.html">
+                                                <a href="about.php">
                                                     <i class="fa-regular fa-chevrons-right"></i> About Company
                                                 </a>
                                             </li>
@@ -99,12 +99,12 @@
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="contact.html">
+                                                <a href="contact.php">
                                                     <i class="fa-regular fa-chevrons-right"></i> Contact Us
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="contact.html">
+                                                <a href="contact.php">
                                                     <i class="fa-regular fa-chevrons-right"></i> 24/7 Support
                                                 </a>
                                             </li>
@@ -175,7 +175,7 @@
                                             <div class="form-check">
                                                 <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
                                                 <label class="form-check-label" for="exampleRadios2">
-                                                    Agree to Our <a href="contact.html">Terms & Condition</a>
+                                                    Agree to Our <a href="contact.php">Terms & Condition</a>
                                                 </label>
                                             </div>
                                         </div>

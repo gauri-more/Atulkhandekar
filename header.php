@@ -173,7 +173,7 @@
             <div class="container">
                 <div class="mega-menu-wrapper">
                     <div class="header-main">
-                            <a href="index.html" class="logo">
+                            <a href="index.php" class="logo">
                                 <img src="assets/images/inner-img/atul-khandekar.png" alt="img">
                             </a>
                             <div class="header-right d-flex justify-content-end align-items-center">
@@ -185,7 +185,7 @@
                                             <a href="index.php">Home </a>
                                         </li>
                                         <li>
-                                            <a href="about.html">About us</a>
+                                            <a href="about.php">About us</a>
                                         </li>
                                    <li>
                                             <a href="gallery.php">Gallery </a>
@@ -194,13 +194,16 @@
                                             <a href="awards.php">Awards </a>
                                         </li>
                                         <li>
-                                            <a href="index.php">Review </a>
-                                        </li>
-                                         <li>
-                                            <a href="index.php">Audio-video </a>
+                                            <a href="gurus-blessings.php">Guru's Blessings </a>
                                         </li>
                                         <li>
-                                            <a href="contact.html">Contact</a>
+                                            <a href="reviews.php">Review </a>
+                                        </li>
+                                         <li>
+                                            <a href="av.php">Audio-video </a>
+                                        </li>
+                                        <li>
+                                            <a href="contact.php">Contact</a>
                                         </li>
                                     </ul>
                                 </nav>
@@ -209,7 +212,7 @@
                             <a href="#" class="main-header__search search-toggler">
                                 <i class="fa-regular fa-magnifying-glass"></i>
                             </a>
-                            <a href="contact.html" class="theme-btn">
+                            <a href="contact.php" class="theme-btn">
                                 <span class="btn-arrow-left"> <i class="fa-solid fa-arrow-up-right"></i> </span>
                                 <span class="btn-title">Get In Touch</span>
                                 <span class="btn-arrow-right"> <i class="fa-solid fa-arrow-up-right"></i> </span>
