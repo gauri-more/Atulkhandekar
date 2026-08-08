@@ -191,7 +191,7 @@
                                             <a href="gallery.php">Gallery </a>
                                         </li>
                                          <li>
-                                            <a href="index.php">Awards </a>
+                                            <a href="awards.php">Awards </a>
                                         </li>
                                         <li>
                                             <a href="index.php">Review </a>

@@ -430,7 +430,7 @@ require('header.php');
             </p>
 
             <div class="team-btn">
-                <a href="awards.html" class="theme-btn">
+                <a href="awards.php" class="theme-btn">
                     <span class="btn-arrow-left">
                         <i class="fa-solid fa-arrow-up-right"></i>
                     </span>
@@ -454,7 +454,7 @@ require('header.php');
 
                         <ul class="team-icon d-flex justify-content-center align-items-center">
                             <li>
-                                <a href="awards.html">
+                                <a href="awards.php">
                                     <i class="fa-solid fa-trophy"></i>
                                 </a>
                             </li>
@@ -463,7 +463,7 @@ require('header.php');
 
                     <div class="content">
                         <h3 class="title">
-                            <a href="awards.html">
+                            <a href="awards.php">
                                 Daily Sakal Winner
                             </a>
                         </h3>
@@ -486,7 +486,7 @@ require('header.php');
 
                         <ul class="team-icon d-flex justify-content-center align-items-center">
                             <li>
-                                <a href="awards.html">
+                                <a href="awards.php">
                                     <i class="fa-solid fa-award"></i>
                                 </a>
                             </li>
@@ -495,7 +495,7 @@ require('header.php');
 
                     <div class="content">
                         <h3 class="title">
-                            <a href="awards.html">
+                            <a href="awards.php">
                                 Akashvani Award
                             </a>
                         </h3>
@@ -518,7 +518,7 @@ require('header.php');
 
                         <ul class="team-icon d-flex justify-content-center align-items-center">
                             <li>
-                                <a href="awards.html">
+                                <a href="awards.php">
                                     <i class="fa-solid fa-medal"></i>
                                 </a>
                             </li>
@@ -527,7 +527,7 @@ require('header.php');
 
                     <div class="content">
                         <h3 class="title">
-                            <a href="awards.html">
+                            <a href="awards.php">
                                 Prestigious Puraskars
                             </a>
                         </h3>
@@ -550,7 +550,7 @@ require('header.php');
 
                         <ul class="team-icon d-flex justify-content-center align-items-center">
                             <li>
-                                <a href="awards.html">
+                                <a href="awards.php">
                                     <i class="fa-solid fa-globe"></i>
                                 </a>
                             </li>
@@ -559,7 +559,7 @@ require('header.php');
 
                     <div class="content">
                         <h3 class="title">
-                            <a href="awards.html">
+                            <a href="awards.php">
                                 International Recognition
                             </a>
                         </h3>
