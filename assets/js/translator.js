@@ -24,7 +24,7 @@ function googleTranslateElementInit() {
             return;
         }
 
-        translateSelect.value = language;
+        translateSelect.value = language === "en" ? "" : language;
 
         if (typeof translateSelect.onchange === "function") {
             translateSelect.onchange();

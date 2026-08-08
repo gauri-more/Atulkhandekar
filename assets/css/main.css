@@ -15872,7 +15872,9 @@ span {
   color: var(--white);
 }
 .google-translate-engine {
-  position: absolute;
+  position: fixed;
+  left: -9999px;
+  top: 0;
   width: 1px;
   height: 1px;
   overflow: hidden;
@@ -15893,7 +15895,7 @@ iframe.goog-te-banner-frame,
   background: none !important;
   box-shadow: none !important;
 }
-@media (max-width: 1199px) {
+@media (max-width: 767px) {
   .header-language-toggle {
     display: none;
   }
