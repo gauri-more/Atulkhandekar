@@ -212,11 +212,12 @@
                             <a href="#" class="main-header__search search-toggler">
                                 <i class="fa-regular fa-magnifying-glass"></i>
                             </a>
-                            <a href="contact.php" class="theme-btn">
-                                <span class="btn-arrow-left"> <i class="fa-solid fa-arrow-up-right"></i> </span>
-                                <span class="btn-title">Get In Touch</span>
-                                <span class="btn-arrow-right"> <i class="fa-solid fa-arrow-up-right"></i> </span>
-                            </a>
+                            <button class="header-language-toggle" id="language-toggle" type="button" aria-label="Switch language to Marathi" aria-pressed="false">
+                                <i class="fa-solid fa-language" aria-hidden="true"></i>
+                                <span class="language-toggle__en">EN</span>
+                                <span class="language-toggle__divider">/</span>
+                                <span class="language-toggle__mr">म</span>
+                            </button>
                             <div class="header__hamburger d-xl-none my-auto">
                                 <div class="sidebar__toggle">
                                     <span></span>

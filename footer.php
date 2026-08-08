@@ -167,16 +167,7 @@
                     </div>
                 </footer>
 
-                <div class="language-translator" id="language-translator">
-                    <button class="language-translator__button" type="button" aria-expanded="false" aria-controls="language-translator-panel">
-                        <i class="fa-solid fa-language"></i>
-                        <span>EN / मराठी</span>
-                    </button>
-                    <div class="language-translator__panel" id="language-translator-panel" hidden>
-                        <p>Choose language</p>
-                        <div id="google_translate_element"></div>
-                    </div>
-                </div>
+                <div id="google_translate_element" class="google-translate-engine" aria-hidden="true"></div>
 
 
             </div>

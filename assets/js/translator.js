@@ -10,23 +10,48 @@ function googleTranslateElementInit() {
 (function ($) {
     "use strict";
 
-    $(function () {
-        var $translator = $("#language-translator");
-        var $button = $translator.find(".language-translator__button");
-        var $panel = $("#language-translator-panel");
+    function setLanguage(language, attempts) {
+        var translateSelect = document.querySelector(".goog-te-combo");
 
-        $button.on("click", function () {
-            var isOpen = $button.attr("aria-expanded") === "true";
-
-            $button.attr("aria-expanded", String(!isOpen));
-            $panel.prop("hidden", isOpen);
-        });
-
-        $(document).on("click", function (event) {
-            if (!$translator.is(event.target) && !$translator.has(event.target).length) {
-                $button.attr("aria-expanded", "false");
-                $panel.prop("hidden", true);
+        if (!translateSelect) {
+            if (attempts < 20) {
+                window.setTimeout(function () {
+                    setLanguage(language, attempts + 1);
+                }, 250);
             }
+            return;
+        }
+
+        translateSelect.value = language;
+
+        if (typeof translateSelect.onchange === "function") {
+            translateSelect.onchange();
+            return;
+        }
+
+        var changeEvent = document.createEvent("HTMLEvents");
+        changeEvent.initEvent("change", true, true);
+        translateSelect.dispatchEvent(changeEvent);
+    }
+
+    function updateToggle(isMarathi) {
+        var $toggle = $("#language-toggle");
+
+        $toggle.toggleClass("is-marathi", isMarathi);
+        $toggle.attr("aria-pressed", String(isMarathi));
+        $toggle.attr("aria-label", isMarathi ? "Switch language to English" : "Switch language to Marathi");
+    }
+
+    $(function () {
+        var $toggle = $("#language-toggle");
+        var isMarathi = document.cookie.indexOf("googtrans=/en/mr") !== -1;
+
+        updateToggle(isMarathi);
+
+        $toggle.on("click", function () {
+            isMarathi = !isMarathi;
+            setLanguage(isMarathi ? "mr" : "en", 0);
+            updateToggle(isMarathi);
         });
     });
 })(jQuery);

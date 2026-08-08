@@ -15827,107 +15827,67 @@ span {
   color: var(--theme);
 }
 
-.language-translator {
-  position: fixed;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 9999;
-}
-.language-translator__button {
+.header-language-toggle {
   display: inline-flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 5px;
-  width: 56px;
-  min-height: 104px;
-  padding: 12px 8px;
-  border: 1px solid rgba(255, 255, 255, 0.45);
-  border-right: 0;
-  border-radius: 8px 0 0 8px;
-  background: var(--theme);
-  color: var(--white);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.22);
+  gap: 7px;
+  min-width: 94px;
+  height: 48px;
+  padding: 0 14px;
+  border: 1px solid rgba(3, 40, 40, 0.22);
+  border-radius: 24px;
+  background: var(--white);
+  color: var(--header);
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 0;
+  transition: all 0.3s ease;
 }
-.language-translator__button i {
-  font-size: 19px;
+.header-language-toggle i {
+  color: var(--theme);
+  font-size: 17px;
 }
-.language-translator__button span {
-  writing-mode: vertical-rl;
-  transform: rotate(180deg);
+.header-language-toggle .language-toggle__divider {
+  color: rgba(3, 40, 40, 0.36);
 }
-.language-translator__button:hover,
-.language-translator__button[aria-expanded="true"] {
-  background: var(--header);
+.header-language-toggle .language-toggle__mr {
+  color: rgba(3, 40, 40, 0.48);
+}
+.header-language-toggle.is-marathi {
+  background: var(--theme);
+  border-color: var(--theme);
   color: var(--white);
 }
-.language-translator__panel {
+.header-language-toggle.is-marathi i,
+.header-language-toggle.is-marathi .language-toggle__divider,
+.header-language-toggle.is-marathi .language-toggle__mr {
+  color: var(--white);
+}
+.header-language-toggle:hover {
+  border-color: var(--theme);
+  color: var(--theme);
+}
+.header-language-toggle.is-marathi:hover {
+  color: var(--white);
+}
+.google-translate-engine {
   position: absolute;
-  right: 0;
-  top: 50%;
-  bottom: auto;
-  transform: translateY(-50%);
-  margin-right: 66px;
-  width: 200px;
-  padding: 16px;
-  border-radius: 8px;
-  background: var(--white);
-  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.22);
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
 }
-.language-translator__panel[hidden] {
-  display: none;
-}
-.language-translator__panel p {
-  margin: 0 0 10px;
-  color: var(--header);
-  font-size: 14px;
-  font-weight: 600;
-}
-.language-translator .goog-te-gadget {
-  color: transparent;
-  font-size: 0;
-}
-.language-translator .goog-te-gadget .goog-te-combo {
-  width: 100%;
-  min-height: 36px;
-  padding: 0 8px;
-  border: 1px solid rgba(111, 53, 24, 0.28);
-  border-radius: 4px;
-  background: var(--white);
-  color: var(--header);
-  font-size: 14px;
+@media (max-width: 1199px) {
+  .header-language-toggle {
+    display: none;
+  }
 }
 @media (max-width: 575px) {
   .breadcrumb-wrapper {
     background-position: 58% center !important;
-  }
-  .language-translator {
-    right: 0;
-    top: auto;
-    bottom: 86px;
-    transform: none;
-  }
-  .language-translator__button {
-    flex-direction: row;
-    width: auto;
-    min-width: 58px;
-    min-height: 48px;
-    padding: 0 13px;
-    border-radius: 24px 0 0 24px;
-  }
-  .language-translator__button span {
-    writing-mode: horizontal-tb;
-    transform: none;
-  }
-  .language-translator__panel {
-    top: auto;
-    bottom: 0;
-    transform: none;
-    margin-right: 66px;
   }
 }
 
