@@ -1,9 +1,11 @@
 function googleTranslateElementInit() {
+    // Note: InlineLayout.SIMPLE never renders a real <select class="goog-te-combo">,
+    // only a link that opens a cross-origin popup we cannot script. Default layout
+    // renders the scriptable select we need, so no "layout" option is passed here.
     new google.translate.TranslateElement({
         pageLanguage: "en",
         includedLanguages: "en,mr",
-        autoDisplay: false,
-        layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+        autoDisplay: false
     }, "google_translate_element");
 }
 

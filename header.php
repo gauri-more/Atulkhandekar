@@ -212,7 +212,7 @@
                             <a href="#" class="main-header__search search-toggler">
                                 <i class="fa-regular fa-magnifying-glass"></i>
                             </a>
-                            <button class="header-language-toggle" id="language-toggle" type="button" aria-label="Switch language to Marathi" aria-pressed="false">
+                            <button class="header-language-toggle notranslate" id="language-toggle" type="button" aria-label="Switch language to Marathi" aria-pressed="false" translate="no">
                                 <i class="fa-solid fa-language" aria-hidden="true"></i>
                                 <span class="language-toggle__en">EN</span>
                                 <span class="language-toggle__divider">/</span>
