@@ -1,5 +1,5 @@
         <!-- Footer Section Start -->
-                <footer class="footer-section fix bg-cover" style="background-image: url('assets/img/home-1/footer-bg-img.jpg');">
+            <footer class="footer-section fix bg-cover" style="background-image: url('assets/images/inner-img/atul-khandekar-banner.png');">
                     <div class="footer-info-area">
                         <div class="container">
                             <div class="footer-info-top">
@@ -8,12 +8,12 @@
                                         <img src="assets/img/home-1/icon/footer-icon-1.svg" alt="img">
                                     </div>
                                     <div class="content">
-                                        <h2 class="info-title">Contact us:</h2>
+                                        <h2 class="info-title">Call Us</h2>
                                         <p>
-                                            <a href="tel:+483939993900">+483 9399 939 00</a>
+                                            <a href="tel:+919922442438">+91 99 22 442438</a>
                                         </p>
                                         <p class="mt-2">
-                                            <a href="mailto:hellobixoo@gmail.com">hellobixoo@gmail.com</a>
+                                            <a href="tel:+912024537414">(020) 2453 7414</a>
                                         </p>
                                     </div>
                                 </div>
@@ -22,9 +22,9 @@
                                         <img src="assets/img/home-1/icon/footer-icon-2.svg" alt="img">
                                     </div>
                                     <div class="content">
-                                        <h2 class="info-title">Our Location:</h2>
+                                        <h2 class="info-title">Visit Us</h2>
                                         <p>
-                                            2220 Plymouth Rd 302, Hopkins, <br> New York, USA
+                                            96/89 Sadashiv Peth, 'Shilp', <br> Pune 411030, Maharashtra
                                         </p>
                                     </div>
                                 </div>
@@ -33,20 +33,17 @@
                                         <img src="assets/img/home-1/icon/footer-icon-3.svg" alt="img">
                                     </div>
                                     <div class="content">
-                                        <h2 class="info-title">Working Time:</h2>
+                                        <h2 class="info-title">Email Us</h2>
                                         <p>
-                                        Mon - Fri: 8:00am - 6.00pm <br>
-                                            Sunday: Closed
+                                            <a href="mailto:atulrkhandekar@gmail.com">atulrkhandekar@gmail.com</a>
                                         </p>
                                     </div>
                                 </div>
                                 <div class="social-icon-list wow fadeInUp" data-wow-delay=".8s">
-                                    <h2 class="info-title">Follow Us:</h2>
+                                    <h2 class="info-title">Follow Atul</h2>
                                     <div class="social-icon">
-                                        <a href="javascript:void(0)"><i class="fab fa-facebook-f"></i></a>
-                                        <a href="javascript:void(0)"><i class="fab fa-twitter"></i></a>
-                                        <a href="javascript:void(0)"><i class="fab fa-vimeo-v"></i></a>
-                                        <a href="javascript:void(0)"><i class="fab fa-pinterest-p"></i></a>
+                                        <a href="https://www.facebook.com/atulrkhandekar?fref=ts&ref=br_tf" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                                        <a href="https://www.youtube.com/results?search_query=atul+khandekar" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -58,25 +55,14 @@
                                 <div class="col-xl-4 col-lg-5 col-md-7 wow fadeInUp" data-wow-delay=".2s">
                                     <div class="footer-widget-items">
                                         <div class="widget-head">
-                                            <a href="index.html">
-                                                <img src="assets/img/logo/white-logo.svg" alt="img">
+                                            <a href="index.php">
+                                                <img src="assets/images/inner-img/atul-khandekar.png" alt="Atul Khandekar">
                                             </a>
                                         </div>
                                         <div class="footer-content">
                                             <p>
-                                                Through a combination of data-driven insights and innovative approaches, work closely with you to develop
+                                                Hindustani Classical Vocalist carrying forward the musical heritage of the Gwalior Gharana and Balgandharva Gayaki.
                                             </p>
-                                            <div class="award-icon d-flex align-items-center">
-                                                <div class="icon">
-                                                    <img src="assets/img/home-1/footer-icon-1.png" alt="img">
-                                                </div>
-                                                <div class="icon">
-                                                    <img src="assets/img/home-1/footer-icon-2.png" alt="img">
-                                                </div>
-                                                <div class="icon">
-                                                    <img src="assets/img/home-1/footer-icon-3.png" alt="img">
-                                                </div>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -84,38 +70,38 @@
                                     <div class="footer-widget-items">
                                         <div class="widget-head">
                                             <h3>
-                                                Useful Link
+                                                Explore
                                             </h3>
                                         </div>
                                         <ul class="list-area">
                                             <li>
                                                 <a href="about.php">
-                                                    <i class="fa-regular fa-chevrons-right"></i> About Company
+                                                    <i class="fa-regular fa-chevrons-right"></i> About Atul
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="team.html">
-                                                    <i class="fa-regular fa-chevrons-right"></i> Meet Member
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="contact.php">
-                                                    <i class="fa-regular fa-chevrons-right"></i> Contact Us
+                                                <a href="gurus-blessings.php">
+                                                    <i class="fa-regular fa-chevrons-right"></i> Guru's Blessings
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="contact.php">
-                                                    <i class="fa-regular fa-chevrons-right"></i> 24/7 Support
+                                                    <i class="fa-regular fa-chevrons-right"></i> Contact Atul
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="faq.html">
-                                                    <i class="fa-regular fa-chevrons-right"></i> Our FAQs
+                                                <a href="gallery.php">
+                                                    <i class="fa-regular fa-chevrons-right"></i> Gallery
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="pricing.html">
-                                                    <i class="fa-regular fa-chevrons-right"></i> Pricing Plan
+                                                <a href="awards.php">
+                                                    <i class="fa-regular fa-chevrons-right"></i> Awards & Honours
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="reviews.php">
+                                                    <i class="fa-regular fa-chevrons-right"></i> Press Reviews
                                                 </a>
                                             </li>
                                         </ul>
@@ -125,38 +111,38 @@
                                     <div class="footer-widget-items">
                                         <div class="widget-head">
                                             <h3>
-                                                Our Services
+                                                Musical Journey
                                             </h3>
                                         </div>
                                         <ul class="list-area">
                                             <li>
-                                                <a href="service-details.html">
-                                                    <i class="fa-regular fa-chevrons-right"></i> Customer Experience
+                                                <a href="av.php">
+                                                    <i class="fa-regular fa-chevrons-right"></i> Audio-Video Clippings
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="service-details.html">
-                                                    <i class="fa-regular fa-chevrons-right"></i> Training Programs
+                                                <a href="gallery.php#live-concerts">
+                                                    <i class="fa-regular fa-chevrons-right"></i> Live Concerts
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="service-details.html">
-                                                    <i class="fa-regular fa-chevrons-right"></i> Business Strategy
+                                                <a href="gallery.php#classical-performances">
+                                                    <i class="fa-regular fa-chevrons-right"></i> Classical Performances
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="service-details.html">
-                                                    <i class="fa-regular fa-chevrons-right"></i> Training Program
+                                                <a href="gallery.php#television-shows">
+                                                    <i class="fa-regular fa-chevrons-right"></i> Natyasangeet
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="service-details.html">
-                                                    <i class="fa-regular fa-chevrons-right"></i> ESG Consulting
+                                                <a href="gallery.php#music-festivals">
+                                                    <i class="fa-regular fa-chevrons-right"></i> Music Festivals
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="service-details.html">
-                                                    <i class="fa-regular fa-chevrons-right"></i> Development Hub
+                                                <a href="contact.php">
+                                                    <i class="fa-regular fa-chevrons-right"></i> Concert Enquiries
                                                 </a>
                                             </li>
                                         </ul>
@@ -165,19 +151,9 @@
                                 <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".8s">
                                     <div class="footer-widget-items">
                                         <div class="footer-form-items">
-                                            <h3 class="subscribe-text">
-                                                Subscribe to Our Newsletter.
-                                            </h3>
-                                            <form action="#">
-                                                <input type="email" id="email12" placeholder="Enter your email">
-                                                <button class="icon-btn" type="submit"><i class="fas fa-paper-plane"></i></button>
-                                            </form>
-                                            <div class="form-check">
-                                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-                                                <label class="form-check-label" for="exampleRadios2">
-                                                    Agree to Our <a href="contact.php">Terms & Condition</a>
-                                                </label>
-                                            </div>
+                                            <h3 class="subscribe-text">For Concert Enquiries</h3>
+                                            <p class="footer-enquiry-text">For concerts, workshops and other musical engagements, write to Atul directly.</p>
+                                            <a href="mailto:atulrkhandekar@gmail.com" class="footer-email-link">atulrkhandekar@gmail.com <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -186,10 +162,21 @@
                     </div>
                     <div class="footer-bottom wow fadeInUp" data-wow-delay=".3s">
                         <div class="container">
-                            <p class="text-1">© 2026 <a href="index.html">Bixoo</a> All Rights Reserved </p>
+                            <p class="text-1">© 2026 <a href="index.php">Atul Khandekar</a>. All Rights Reserved.</p>
                         </div>
                     </div>
                 </footer>
+
+                <div class="language-translator" id="language-translator">
+                    <button class="language-translator__button" type="button" aria-expanded="false" aria-controls="language-translator-panel">
+                        <i class="fa-solid fa-language"></i>
+                        <span>EN / मराठी</span>
+                    </button>
+                    <div class="language-translator__panel" id="language-translator-panel" hidden>
+                        <p>Choose language</p>
+                        <div id="google_translate_element"></div>
+                    </div>
+                </div>
 
 
             </div>
@@ -230,5 +217,7 @@
         <script src="assets/js/wow.min.js"></script>
         <!--<< Main.js >>-->
         <script src="assets/js/main.js"></script>
+        <script src="assets/js/translator.js"></script>
+        <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     </body>
 </html>
