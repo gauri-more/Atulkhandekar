@@ -25,7 +25,7 @@ require('header.php');
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <div class="hero-height">
-                                    <div class="hero-bg bg-cover" style="background-image: url('assets/images/inner-img/atul-khandekar-banner.png');"></div>
+                                    <div class="hero-bg bg-cover" style="background-image: url('assets/images/inner-img/IMG_0134.jpg');"></div>
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-lg-12">
@@ -54,7 +54,7 @@ require('header.php');
                             </div>
                              <div class="swiper-slide">
                                 <div class="hero-height">
-                                    <div class="hero-bg bg-cover" style="background-image: url('assets/images/inner-img/atul-khandekar-banner.png');"></div>
+                                    <div class="hero-bg bg-cover" style="background-image: url('assets/images/inner-img/IMG_0059-1.jpg');"></div>
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-lg-12">
@@ -83,260 +83,7 @@ require('header.php');
                             </div>
                         </div>
                     </div>
-                    <div class="marquee-section-2 d-none">
-                        <div class="marquee">
-                            <div class="marquee-group">
-                                <div class="marquee-icon">
-                                    <span class="text">Business Strategy</span>
-                                    <div class="icon">
-                                        <img src="assets/img/home-1/hero-marquee-icon.png" alt="img">
-                                    </div>
-                                </div>
-                                <div class="marquee-icon">
-                                    <span class="text">Consulting Solutions</span>
-                                    <div class="icon">
-                                        <img src="assets/img/home-1/hero-marquee-icon.png" alt="img">
-                                    </div>
-                                </div>
-                                <div class="marquee-icon">
-                                    <span class="text">Business Management</span>
-                                    <div class="icon">
-                                        <img src="assets/img/home-1/hero-marquee-icon.png" alt="img">
-                                    </div>
-                                </div>
-                                <div class="marquee-icon">
-                                    <span class="text">Sustainable Business</span>
-                                    <div class="icon">
-                                        <img src="assets/img/home-1/hero-marquee-icon.png" alt="img">
-                                    </div>
-                                </div>
-                                <div class="marquee-icon">
-                                    <span class="text">Reach Worldwide</span>
-                                    <div class="icon">
-                                        <img src="assets/img/home-1/hero-marquee-icon.png" alt="img">
-                                    </div>
-                                </div>
-                                <div class="marquee-icon">
-                                    <span class="text">Competitive Edge</span>
-                                    <div class="icon">
-                                        <img src="assets/img/home-1/hero-marquee-icon.png" alt="img">
-                                    </div>
-                                </div>
-                                <div class="marquee-icon">
-                                    <span class="text">Operational Efficiency</span>
-                                    <div class="icon">
-                                        <img src="assets/img/home-1/hero-marquee-icon.png" alt="img">
-                                    </div>
-                                </div>
-                                <div class="marquee-icon">
-                                    <span class="text">Expansion Strategies</span>
-                                    <div class="icon">
-                                        <img src="assets/img/home-1/hero-marquee-icon.png" alt="img">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="marquee-group">
-                                <div class="marquee-icon">
-                                    <span class="text">Business Strategy</span>
-                                    <div class="icon">
-                                        <img src="assets/img/home-1/hero-marquee-icon.png" alt="img">
-                                    </div>
-                                </div>
-                                <div class="marquee-icon">
-                                    <span class="text">Consulting Solutions</span>
-                                    <div class="icon">
-                                        <img src="assets/img/home-1/hero-marquee-icon.png" alt="img">
-                                    </div>
-                                </div>
-                                <div class="marquee-icon">
-                                    <span class="text">Business Management</span>
-                                    <div class="icon">
-                                        <img src="assets/img/home-1/hero-marquee-icon.png" alt="img">
-                                    </div>
-                                </div>
-                                <div class="marquee-icon">
-                                    <span class="text">Sustainable Business</span>
-                                    <div class="icon">
-                                        <img src="assets/img/home-1/hero-marquee-icon.png" alt="img">
-                                    </div>
-                                </div>
-                                <div class="marquee-icon">
-                                    <span class="text">Reach Worldwide</span>
-                                    <div class="icon">
-                                        <img src="assets/img/home-1/hero-marquee-icon.png" alt="img">
-                                    </div>
-                                </div>
-                                <div class="marquee-icon">
-                                    <span class="text">Competitive Edge</span>
-                                    <div class="icon">
-                                        <img src="assets/img/home-1/hero-marquee-icon.png" alt="img">
-                                    </div>
-                                </div>
-                                <div class="marquee-icon">
-                                    <span class="text">Operational Efficiency</span>
-                                    <div class="icon">
-                                        <img src="assets/img/home-1/hero-marquee-icon.png" alt="img">
-                                    </div>
-                                </div>
-                                <div class="marquee-icon">
-                                    <span class="text">Expansion Strategies</span>
-                                    <div class="icon">
-                                        <img src="assets/img/home-1/hero-marquee-icon.png" alt="img">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="marquee-group">
-                                <div class="marquee-icon">
-                                    <span class="text">Business Strategy</span>
-                                    <div class="icon">
-                                        <img src="assets/img/home-1/hero-marquee-icon.png" alt="img">
-                                    </div>
-                                </div>
-                                <div class="marquee-icon">
-                                    <span class="text">Consulting Solutions</span>
-                                    <div class="icon">
-                                        <img src="assets/img/home-1/hero-marquee-icon.png" alt="img">
-                                    </div>
-                                </div>
-                                <div class="marquee-icon">
-                                    <span class="text">Business Management</span>
-                                    <div class="icon">
-                                        <img src="assets/img/home-1/hero-marquee-icon.png" alt="img">
-                                    </div>
-                                </div>
-                                <div class="marquee-icon">
-                                    <span class="text">Sustainable Business</span>
-                                    <div class="icon">
-                                        <img src="assets/img/home-1/hero-marquee-icon.png" alt="img">
-                                    </div>
-                                </div>
-                                <div class="marquee-icon">
-                                    <span class="text">Reach Worldwide</span>
-                                    <div class="icon">
-                                        <img src="assets/img/home-1/hero-marquee-icon.png" alt="img">
-                                    </div>
-                                </div>
-                                <div class="marquee-icon">
-                                    <span class="text">Competitive Edge</span>
-                                    <div class="icon">
-                                        <img src="assets/img/home-1/hero-marquee-icon.png" alt="img">
-                                    </div>
-                                </div>
-                                <div class="marquee-icon">
-                                    <span class="text">Operational Efficiency</span>
-                                    <div class="icon">
-                                        <img src="assets/img/home-1/hero-marquee-icon.png" alt="img">
-                                    </div>
-                                </div>
-                                <div class="marquee-icon">
-                                    <span class="text">Expansion Strategies</span>
-                                    <div class="icon">
-                                        <img src="assets/img/home-1/hero-marquee-icon.png" alt="img">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="marquee-group">
-                                <div class="marquee-icon">
-                                    <span class="text">Business Strategy</span>
-                                    <div class="icon">
-                                        <img src="assets/img/home-1/hero-marquee-icon.png" alt="img">
-                                    </div>
-                                </div>
-                                <div class="marquee-icon">
-                                    <span class="text">Consulting Solutions</span>
-                                    <div class="icon">
-                                        <img src="assets/img/home-1/hero-marquee-icon.png" alt="img">
-                                    </div>
-                                </div>
-                                <div class="marquee-icon">
-                                    <span class="text">Business Management</span>
-                                    <div class="icon">
-                                        <img src="assets/img/home-1/hero-marquee-icon.png" alt="img">
-                                    </div>
-                                </div>
-                                <div class="marquee-icon">
-                                    <span class="text">Sustainable Business</span>
-                                    <div class="icon">
-                                        <img src="assets/img/home-1/hero-marquee-icon.png" alt="img">
-                                    </div>
-                                </div>
-                                <div class="marquee-icon">
-                                    <span class="text">Reach Worldwide</span>
-                                    <div class="icon">
-                                        <img src="assets/img/home-1/hero-marquee-icon.png" alt="img">
-                                    </div>
-                                </div>
-                                <div class="marquee-icon">
-                                    <span class="text">Competitive Edge</span>
-                                    <div class="icon">
-                                        <img src="assets/img/home-1/hero-marquee-icon.png" alt="img">
-                                    </div>
-                                </div>
-                                <div class="marquee-icon">
-                                    <span class="text">Operational Efficiency</span>
-                                    <div class="icon">
-                                        <img src="assets/img/home-1/hero-marquee-icon.png" alt="img">
-                                    </div>
-                                </div>
-                                <div class="marquee-icon">
-                                    <span class="text">Expansion Strategies</span>
-                                    <div class="icon">
-                                        <img src="assets/img/home-1/hero-marquee-icon.png" alt="img">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="marquee-group">
-                                <div class="marquee-icon">
-                                    <span class="text">Business Strategy</span>
-                                    <div class="icon">
-                                        <img src="assets/img/home-1/hero-marquee-icon.png" alt="img">
-                                    </div>
-                                </div>
-                                <div class="marquee-icon">
-                                    <span class="text">Consulting Solutions</span>
-                                    <div class="icon">
-                                        <img src="assets/img/home-1/hero-marquee-icon.png" alt="img">
-                                    </div>
-                                </div>
-                                <div class="marquee-icon">
-                                    <span class="text">Business Management</span>
-                                    <div class="icon">
-                                        <img src="assets/img/home-1/hero-marquee-icon.png" alt="img">
-                                    </div>
-                                </div>
-                                <div class="marquee-icon">
-                                    <span class="text">Sustainable Business</span>
-                                    <div class="icon">
-                                        <img src="assets/img/home-1/hero-marquee-icon.png" alt="img">
-                                    </div>
-                                </div>
-                                <div class="marquee-icon">
-                                    <span class="text">Reach Worldwide</span>
-                                    <div class="icon">
-                                        <img src="assets/img/home-1/hero-marquee-icon.png" alt="img">
-                                    </div>
-                                </div>
-                                <div class="marquee-icon">
-                                    <span class="text">Competitive Edge</span>
-                                    <div class="icon">
-                                        <img src="assets/img/home-1/hero-marquee-icon.png" alt="img">
-                                    </div>
-                                </div>
-                                <div class="marquee-icon">
-                                    <span class="text">Operational Efficiency</span>
-                                    <div class="icon">
-                                        <img src="assets/img/home-1/hero-marquee-icon.png" alt="img">
-                                    </div>
-                                </div>
-                                <div class="marquee-icon">
-                                    <span class="text">Expansion Strategies</span>
-                                    <div class="icon">
-                                        <img src="assets/img/home-1/hero-marquee-icon.png" alt="img">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                 
                 </section>
    <!-- About Section Start -->
                 <section class="about-section-4 section-padding fix  tp-panel-pin-area2">
@@ -344,15 +91,15 @@ require('header.php');
                         <div class="row g-4">
                             <div class="col-xl-5 col-lg-5">
                                 <div class="about-left-thumb-style-4 tp-panel-pin2">
-                                    <img src="assets/images/inner-img/atul-khandekar-about.jpg" alt="img">
+                                    <img src="assets/images/inner-img/atul-1.jpg" alt="img">
                                 </div>
                             </div>
                             <div class="col-xl-7 col-lg-7">
                                 <div class="about-right-content-style-4">
-                                    <div class="section-title mb-0">
-                                        <span class="sub-title sub-title tz-sub-tilte tz-sub-anim tx-subTitle">
+                                    <div class="section-title mb-0" translate="yes">
+                                        <span class="sub-title">
                                             <img src="assets/img/sub-title-1.svg" alt="img">About Me</span>
-                                        <h2 class="split-title">Carrying Forward the Rich Legacy of Indian Classical Music</h2>
+                                        <h2 class="" translate="yes">Carrying Forward the Rich Legacy of Indian Classical Music</h2>
                                     </div>
                                     <p class="about-text">
                                         Born into a family with a rich musical heritage, Atul Khandekar inherited
@@ -361,7 +108,7 @@ require('header.php');
                         dedication, discipline, and artistic excellence.
                                     </p>
                                     <div class="about-thumb">
-                                        <img src="assets/images/inner-img/about-family.jpg" alt="Classical Music Performance">
+                                        <img src="assets/images/inner-img/family-about.jpeg" alt="Classical Music Performance">
                                     </div>
                                     <h3>Musical Heritage & Training</h3>
                                     <div class="line"></div>
@@ -416,12 +163,12 @@ require('header.php');
     <div class="container">
 
         <div class="section-title text-center">
-            <span class="sub-title sub-title tz-sub-tilte tz-sub-anim tx-subTitle justify-content-center">
+            <span class="sub-title  justify-content-center">
                 <img src="assets/img/sub-title-1.svg" alt="img">
                 Awards & Achievements
             </span>
 
-            <h2 class="split-title">Honours & Recognition</h2>
+            <h2 class="">Honours & Recognition</h2>
 
             <p class="mt-3 wow fadeInUp">
                 A glimpse of the prestigious awards and recognitions received by
@@ -579,11 +326,11 @@ require('header.php');
 <!-- Awards & Achievements End -->
 
                 <!-- Gallery Section Start -->
-                <section class="gallery-section fix section-padding pt-0">
+                <section class="gallery-section fix section-padding">
                     <div class="container">
                         <div class="section-title mb-0 text-center">
-                            <span class="sub-title sub-title tz-sub-tilte tz-sub-anim tx-subTitle justify-content-center"><img src="assets/img/sub-title-1.svg" alt="img">Our Gallery</span>
-                            <h2 class="split-title">
+                            <span class="sub-title justify-content-center"><img src="assets/img/sub-title-1.svg" alt="img">Our Gallery</span>
+                            <h2 class="">
                                 Moments From The <br> Musical Journey
                             </h2>
                         </div>
@@ -654,7 +401,7 @@ require('header.php');
                             <div class="col-xl-3 col-lg-4 col-md-6 col-12 gallery-item" data-category="television-shows">
                                 <div class="gallery-box">
                                     <a href="assets/images/gallery/natakimg1.jpg" class="gallery-popup" title="As A Sutradhar">
-                                        <img src="assets/images/gallery/natakimg1.jpg" alt="As A Sutradhar">
+                                        <img src="assets/images/gallery/natakimg1.jpg" alt="As A Sutradhar" class="custom-image">
                                         <span class="zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
                                     </a>
                                     <div class="gallery-content">

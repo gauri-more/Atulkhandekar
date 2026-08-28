@@ -7025,18 +7025,18 @@ span {
   background: rgba(3, 40, 40, 0.38);
 }
 .breadcrumb-wrapper .page-heading {
-  padding: 265px 0 180px;
+  padding: 190px 0 80px;
   position: relative;
 }
 @media (max-width: 1199px) {
   .breadcrumb-wrapper .page-heading {
-    padding-top: 200px;
+    padding-top: 180px;
   }
 }
 @media (max-width: 767px) {
   .breadcrumb-wrapper .page-heading {
     text-align: center;
-    padding-top: 210px;
+    padding-top: 150px;
     padding-bottom: 150px;
   }
 }
@@ -15813,6 +15813,7 @@ span {
 }
 .footer-widget-wrapper-1 .footer-widget-items .footer-enquiry-text {
   max-width: 280px;
+  color:#fff;
 }
 .footer-widget-wrapper-1 .footer-widget-items .footer-email-link {
   display: inline-flex;

@@ -203,14 +203,14 @@
        Banner Active Js Start
     ================================ */
 
-       if($('.banner-active').length > 0) {
+      if($('.banner-active').length > 0) {
             const bannerActive = new Swiper(".banner-active", {
-                speed: 2000,
+                speed: 3000,
                 loop: true,
                 slidesPerView: 1,
                 effect:'fade',
                 autoplay: {
-                    delay: 2000,         
+                    delay: 3000,         
                     disableOnInteraction: false,
                     pauseOnMouseEnter: false,  
                 },
@@ -220,7 +220,29 @@
                 },
             });
         }
+// if ($('.banner-active').length > 0) {
+//     const bannerActive = new Swiper(".banner-active", {
+//         speed: 200000000,
+//         loop: true,
+//         slidesPerView: 1,
+//         effect: 'fade',
 
+//         fadeEffect: {
+//             crossFade: true
+//         },
+
+//         autoplay: {
+//             delay: 4000000,
+//             disableOnInteraction: false,
+//             pauseOnMouseEnter: false,
+//         },
+
+//         navigation: {
+//             nextEl: ".array-next",
+//             prevEl: ".array-prev",
+//         },
+//     });
+// }
        /* ================================
        Brand Slider Js Start
     ================================ */

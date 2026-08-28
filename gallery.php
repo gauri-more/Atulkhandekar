@@ -11,7 +11,7 @@ require('header.php');
                                 <li><i class="fa-solid fa-chevron-right"></i></li>
                                 <li>Gallery</li>
                             </ul>
-                            <h1 class="breadcrumb-title split-title">Our Gallery</h1>
+                            <h1 class="breadcrumb-title">Our Gallery</h1>
                         </div>
                     </div>
                 </section>
@@ -21,8 +21,8 @@ require('header.php');
                 <section class="gallery-section section-padding fix">
                     <div class="container">
                         <div class="section-title mb-0 text-center">
-                            <span class="sub-title sub-title tz-sub-tilte tz-sub-anim tx-subTitle justify-content-center"><img src="assets/img/sub-title-1.svg" alt="img">Our Gallery</span>
-                            <h2 class="split-title">
+                            <span class="sub-title justify-content-center"><img src="assets/img/sub-title-1.svg" alt="img">Our Gallery</span>
+                            <h2 class="">
                                 Moments From The <br> Musical Journey
                             </h2>
                         </div>
@@ -262,7 +262,7 @@ require('header.php');
                             <div class="col-xl-3 col-lg-4 col-md-6 col-12 gallery-item" data-category="television-shows">
                                 <div class="gallery-box">
                                     <a href="assets/images/gallery/natakimg1.jpg" class="gallery-popup" title="As A Sutradhar">
-                                        <img src="assets/images/gallery/natakimg1.jpg" alt="As A Sutradhar">
+                                        <img src="assets/images/gallery/natakimg1.jpg" alt="As A Sutradhar" class="custom-image">
                                         <span class="zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
                                     </a>
                                     <div class="gallery-content">

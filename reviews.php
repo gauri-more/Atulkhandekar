@@ -11,7 +11,7 @@ require('header.php');
                                 <li><i class="fa-solid fa-chevron-right"></i></li>
                                 <li>Press Reviews</li>
                             </ul>
-                            <h1 class="breadcrumb-title split-title">Press Reviews</h1>
+                            <h1 class="breadcrumb-title">Press Reviews</h1>
                         </div>
                     </div>
                 </section>
@@ -22,7 +22,7 @@ require('header.php');
                     <div class="container">
                         <div class="section-title mb-0 text-center">
                             <span class="sub-title sub-title tz-sub-tilte tz-sub-anim tx-subTitle justify-content-center"><img src="assets/img/sub-title-1.svg" alt="img">In The News</span>
-                            <h2 class="split-title">
+                            <h2 class="">
                                 Press &amp; Media Coverage
                             </h2>
                             <p class="mt-3 wow fadeInUp">

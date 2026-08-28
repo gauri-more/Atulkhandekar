@@ -56,7 +56,7 @@
                                     <div class="footer-widget-items">
                                         <div class="widget-head">
                                             <a href="index.php">
-                                                <img src="assets/images/inner-img/atul-khandekar.png" alt="Atul Khandekar">
+                                                <img src="assets/images/inner-img/atul_khandekar_logo_white.png" alt="Atul Khandekar">
                                             </a>
                                         </div>
                                         <div class="footer-content">
@@ -172,43 +172,193 @@
 
             </div>
         </div>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
 
+    const form = document.getElementById("contact-form");
+
+    if (!form) {
+        console.error("Contact form not found.");
+        return;
+    }
+
+    form.addEventListener("submit", function (e) {
+
+        e.preventDefault();
+
+        const button = form.querySelector('button[type="submit"]');
+        const buttonTitle = button.querySelector(".btn-title");
+        const formMessage = form.querySelector(".form-message");
+
+        const originalText = buttonTitle.textContent;
+
+        button.disabled = true;
+        buttonTitle.textContent = "Sending...";
+
+        formMessage.textContent = "";
+        formMessage.style.color = "";
+
+        const formData = new FormData(form);
+
+        fetch(form.getAttribute("action"), {
+            method: "POST",
+            body: formData
+        })
+        .then(function (response) {
+
+            return response.text().then(function (text) {
+
+                if (!response.ok) {
+                    throw new Error(text);
+                }
+
+                return text;
+            });
+
+        })
+        .then(function (message) {
+
+            console.log("Server response:", message);
+
+            // Reset form
+            form.reset();
+
+            // Show toast
+            showContactToast(
+                "Message Sent!",
+                message
+            );
+
+        })
+        .catch(function (error) {
+
+            console.error("Contact form error:", error);
+
+            formMessage.textContent =
+                error.message || "Something went wrong. Please try again.";
+
+            formMessage.style.color = "red";
+
+        })
+        .finally(function () {
+
+            button.disabled = false;
+            buttonTitle.textContent = originalText;
+
+        });
+
+    });
+
+
+    /*
+    |--------------------------------------------------------------------------
+    | Toast
+    |--------------------------------------------------------------------------
+    */
+
+    function showContactToast(title, message) {
+
+        let toast = document.getElementById("contact-toast");
+
+        if (!toast) {
+
+            toast = document.createElement("div");
+
+            toast.id = "contact-toast";
+
+            toast.innerHTML = `
+                <div class="contact-toast-icon">
+                    <i class="fa-solid fa-check"></i>
+                </div>
+
+                <div class="contact-toast-content">
+                    <strong></strong>
+                    <span></span>
+                </div>
+
+                <button type="button" class="contact-toast-close">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            `;
+
+            document.body.appendChild(toast);
+
+            toast.querySelector(".contact-toast-close")
+                .addEventListener("click", function () {
+                    toast.classList.remove("show");
+                });
+        }
+
+        toast.querySelector("strong").textContent = title;
+        toast.querySelector("span").textContent = message;
+
+        toast.classList.add("show");
+
+        clearTimeout(window.contactToastTimer);
+
+        window.contactToastTimer = setTimeout(function () {
+            toast.classList.remove("show");
+        }, 5000);
+    }
+
+});
+</script>
         
         <!--<< All JS Plugins >>-->
-        <script src="assets/js/jquery-3.7.1.min.js"></script>
-        <!--<< Viewport Js >>-->
-        <script src="assets/js/viewport.jquery.js"></script>
-        <!--<< Bootstrap Js >>-->
-        <script src="assets/js/bootstrap.bundle.min.js"></script>
-        <!--<< Gsap Min Js >>-->
-        <script src="assets/js/gsap.min.js"></script>
-        <!--<< ScrollTrigger Min Js >>-->
-        <script src="assets/js/ScrollTrigger.min.js"></script>
-        <!--<< ScrollSmoother Min Js >>-->
-        <script src="assets/js/ScrollSmoother.min.js"></script>
-        <!--<< ScrollToPlugin Min Js >>-->
-        <script src="assets/js/ScrollToPlugin.min.js"></script>
-        <!--<< SplitText Min Js >>-->
-        <script src="assets/js/SplitText.min.js"></script>
-        <!--<< TextPlugin Min Js >>-->
-        <script src="assets/js/TextPlugin.js"></script>
-        <!--<< nice-selec Js >>-->
-        <script src="assets/js/jquery.nice-select.min.js"></script>
-        <!--<< Waypoints Js >>-->
-        <script src="assets/js/jquery.waypoints.js"></script>
-        <!--<< Counterup Js >>-->
-        <script src="assets/js/jquery.counterup.min.js"></script>
-        <!--<< Swiper Slider Js >>-->
-        <script src="assets/js/swiper-bundle.min.js"></script>
-        <!--<< MeanMenu Js >>-->
-        <script src="assets/js/jquery.meanmenu.min.js"></script>
-        <!--<< Magnific Popup Js >>-->
-        <script src="assets/js/jquery.magnific-popup.min.js"></script>
-        <!--<< Wow Animation Js >>-->
-        <script src="assets/js/wow.min.js"></script>
-        <!--<< Main.js >>-->
-        <script src="assets/js/main.js"></script>
-        <script src="assets/js/translator.js"></script>
-        <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<script src="assets/js/jquery-3.7.1.min.js" defer></script>
+
+<!--<< Viewport Js >>-->
+<script src="assets/js/viewport.jquery.js" defer></script>
+
+<!--<< Bootstrap Js >>-->
+<script src="assets/js/bootstrap.bundle.min.js" defer></script>
+
+<!--<< Gsap Min Js >>-->
+<script src="assets/js/gsap.min.js" defer></script>
+
+<!--<< ScrollTrigger Min Js >>-->
+<script src="assets/js/ScrollTrigger.min.js" defer></script>
+
+<!--<< ScrollSmoother Min Js >>-->
+<script src="assets/js/ScrollSmoother.min.js" defer></script>
+
+<!--<< ScrollToPlugin Min Js >>-->
+<script src="assets/js/ScrollToPlugin.min.js" defer></script>
+
+<!--<< SplitText Min Js >>-->
+<script src="assets/js/SplitText.min.js" defer></script>
+
+<!--<< TextPlugin Min Js >>-->
+<script src="assets/js/TextPlugin.js" defer></script>
+
+<!--<< nice-select Js >>-->
+<script src="assets/js/jquery.nice-select.min.js" defer></script>
+
+<!--<< Waypoints Js >>-->
+<script src="assets/js/jquery.waypoints.js" defer></script>
+
+<!--<< Counterup Js >>-->
+<script src="assets/js/jquery.counterup.min.js" defer></script>
+
+<!--<< Swiper Slider Js >>-->
+<script src="assets/js/swiper-bundle.min.js" defer></script>
+
+<!--<< MeanMenu Js >>-->
+<script src="assets/js/jquery.meanmenu.min.js" defer></script>
+
+<!--<< Magnific Popup Js >>-->
+<script src="assets/js/jquery.magnific-popup.min.js" defer></script>
+
+<!--<< Wow Animation Js >>-->
+<script src="assets/js/wow.min.js" defer></script>
+
+<!--<< Main.js >>-->
+<script src="assets/js/main.js" defer></script>
+
+<!--<< Translator Js >>-->
+<script src="assets/js/translator.js" defer></script>
+
+<!--<< Google Translate Js >>-->
+<script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" defer></script>
     </body>
 </html>

@@ -11,7 +11,7 @@ require('header.php');
                                 <li><i class="fa-solid fa-chevron-right"></i></li>
                                 <li>Audio-Video</li>
                             </ul>
-                            <h1 class="breadcrumb-title split-title">Audio-Video Clippings</h1>
+                            <h1 class="breadcrumb-title">Audio-Video Clippings</h1>
                         </div>
                     </div>
                 </section>
@@ -22,8 +22,8 @@ require('header.php');
                     <div class="container">
                         <div class="av-intro">
                             <div class="section-title">
-                                <span class="sub-title sub-title tz-sub-tilte tz-sub-anim tx-subTitle"><img src="assets/img/sub-title-1.svg" alt="">Listen &amp; Watch</span>
-                                <h2 class="split-title">A Voice That Lives<br>On Stage</h2>
+                                <span class="sub-title "><img src="assets/img/sub-title-1.svg" alt="">Listen &amp; Watch</span>
+                                <h2 class="">A Voice That Lives<br>On Stage</h2>
                             </div>
                             <p>Experience Pt. Atul Khandekar in raga, natyasangeet and devotional music. Each recording carries the clarity, depth and emotion of a live musical journey.</p>
                             <a href="https://www.youtube.com/results?search_query=atul+khandekar" class="theme-btn" target="_blank" rel="noopener noreferrer">

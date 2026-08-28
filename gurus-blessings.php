@@ -11,7 +11,7 @@ require('header.php');
                                 <li><i class="fa-solid fa-chevron-right"></i></li>
                                 <li>Guru's Blessings</li>
                             </ul>
-                            <h1 class="breadcrumb-title split-title">Guru's Blessings</h1>
+                            <h1 class="breadcrumb-title">Guru's Blessings</h1>
                         </div>
                     </div>
                 </section>
@@ -29,9 +29,9 @@ require('header.php');
                             <div class="col-xl-7 col-lg-7">
                                 <div class="about-right-content-style-4">
                                     <div class="section-title mb-0">
-                                        <span class="sub-title sub-title tz-sub-tilte tz-sub-anim tx-subTitle">
+                                        <span class="sub-title ">
                                             <img src="assets/img/sub-title-1.svg" alt="img">Guru's Blessings</span>
-                                        <h2 class="split-title">Dr. Veena Sahasrabuddhe</h2>
+                                        <h2 class="">Dr. Veena Sahasrabuddhe</h2>
                                     </div>
                                     <p class="about-text">
                                         "I am happy to endorse Atul Ravindra Khandekar's website as one of his
@@ -59,7 +59,7 @@ require('header.php');
                             <div class="col-xl-7 col-lg-7 order-lg-1">
                                 <div class="about-right-content-style-4">
                                     <div class="section-title mb-0">
-                                        <span class="sub-title sub-title tz-sub-tilte tz-sub-anim tx-subTitle">
+                                        <span class="sub-title">
                                             <img src="assets/img/sub-title-1.svg" alt="img">Guru's Blessings</span>
                                         <h2 class="split-title">Smt. Keerti Shiledar</h2>
                                     </div>

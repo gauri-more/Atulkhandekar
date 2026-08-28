@@ -11,7 +11,7 @@ require('header.php');
                                 <li><i class="fa-solid fa-chevron-right"></i></li>
                                 <li>Awards</li>
                             </ul>
-                            <h1 class="breadcrumb-title split-title">Awards &amp; Achievements</h1>
+                            <h1 class="breadcrumb-title">Awards &amp; Achievements</h1>
                         </div>
                     </div>
                 </section>
@@ -22,12 +22,12 @@ require('header.php');
                     <div class="container">
 
                         <div class="section-title text-center">
-                            <span class="sub-title sub-title tz-sub-tilte tz-sub-anim tx-subTitle justify-content-center">
+                            <span class="sub-title  justify-content-center">
                                 <img src="assets/img/sub-title-1.svg" alt="img">
                                 Awards & Achievements
                             </span>
 
-                            <h2 class="split-title">Honours & Recognition</h2>
+                            <h2 class="">Honours & Recognition</h2>
 
                             <p class="mt-3 wow fadeInUp">
                                 A glimpse of the prestigious awards and recognitions received by
@@ -40,7 +40,7 @@ require('header.php');
 
                             <!-- Award 1 -->
                             <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".2s">
-                                <div class="team-box-items-style-4 style-7">
+                                <div class="team-box-items-style-4">
 
                                     <div class="thumb">
                                         <img src="assets/images/inner-img/award-1.png" alt="">
@@ -130,7 +130,7 @@ require('header.php');
 
                             <!-- Award 4 -->
                             <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".8s">
-                                <div class="team-box-items-style-4 style-7">
+                                <div class="team-box-items-style-4 ">
 
                                     <div class="thumb">
                                         <img src="assets/images/inner-img/award-4.jpg" alt="">
@@ -168,8 +168,8 @@ require('header.php');
                 <section class="about-section-4 section-padding fix pt-0">
                     <div class="container">
                         <div class="section-title mb-0 text-center">
-                            <span class="sub-title sub-title tz-sub-tilte tz-sub-anim tx-subTitle justify-content-center"><img src="assets/img/sub-title-1.svg" alt="img">Complete List</span>
-                            <h2 class="split-title">
+                            <span class="sub-title justify-content-center"><img src="assets/img/sub-title-1.svg" alt="img">Complete List</span>
+                            <h2 class="">
                                 Awards &amp; Recognitions Over The Years
                             </h2>
                         </div>
