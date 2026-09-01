@@ -453,7 +453,7 @@ require('header.php');
                             <div class="col-xl-3 col-lg-4 col-md-6 col-12 gallery-item" data-category="awards-honours">
                                 <div class="gallery-box">
                                     <a href="assets/images/inner-img/award-1.png" class="gallery-popup" title="Daily Sakal Winner">
-                                        <img src="assets/images/inner-img/award-1.png" alt="Daily Sakal Winner">
+                                        <img src="assets/images/inner-img/award-1.png" alt="Daily Sakal Winner" class="custom-image">
                                         <span class="zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
                                     </a>
                                     <div class="gallery-content">
@@ -466,7 +466,7 @@ require('header.php');
                             <div class="col-xl-3 col-lg-4 col-md-6 col-12 gallery-item" data-category="awards-honours">
                                 <div class="gallery-box">
                                     <a href="assets/images/inner-img/award-2.jpg" class="gallery-popup" title="Akashvani Award">
-                                        <img src="assets/images/inner-img/award-2.jpg" alt="Akashvani Award">
+                                        <img src="assets/images/inner-img/award-2.jpg" alt="Akashvani Award" class="custom-image">
                                         <span class="zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
                                     </a>
                                     <div class="gallery-content">
