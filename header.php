@@ -475,8 +475,6 @@
                             type="button"
                             aria-label="Switch language to Marathi"
                             aria-pressed="false"
-                            aria-expanded="false"
-                            aria-controls="google_translate_element"
                             translate="no">
 
                             <i
