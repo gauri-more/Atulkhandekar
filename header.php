@@ -473,7 +473,7 @@
                             class="header-language-toggle notranslate"
                             id="language-toggle"
                             type="button"
-                            aria-label="Switch language to Marathi"
+                            aria-label="Choose language"
                             aria-pressed="false"
                             aria-expanded="false"
                             aria-controls="google_translate_element"

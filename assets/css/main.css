@@ -15874,17 +15874,48 @@ span {
 }
 .google-translate-engine {
   position: fixed;
-  z-index: 10001;
+  z-index: 100000 !important;
   display: none;
-  min-width: 168px;
-  padding: 10px;
-  border: 1px solid rgba(3, 40, 40, 0.18);
-  border-radius: 6px;
+  min-width: 210px;
+  padding: 8px;
+  border: 1px solid var(--theme);
+  border-radius: 8px;
   background: var(--white);
-  box-shadow: 0 12px 28px rgba(3, 40, 40, 0.18);
+  box-shadow: 0 14px 30px rgba(111, 53, 24, 0.2);
 }
 .google-translate-engine.is-open {
   display: block;
+}
+.google-translate-engine::selection {
+  background: var(--theme);
+  color: var(--white);
+}
+.google-translate-engine.is-translating::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  border-radius: 7px;
+  background: rgba(255, 255, 255, 0.94);
+}
+.google-translate-engine.is-translating::after {
+  content: "Translating...";
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transform: translate(-50%, -50%);
+  color: var(--theme);
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.google-translate-engine.is-translating .goog-te-combo {
+  pointer-events: none;
 }
 .google-translate-engine .goog-te-gadget {
   color: var(--header);
@@ -15896,15 +15927,22 @@ span {
 }
 .google-translate-engine .goog-te-combo {
   width: 100%;
-  min-height: 34px;
+  min-height: 38px;
   margin: 0;
-  padding: 0 8px;
-  border: 1px solid rgba(3, 40, 40, 0.25);
-  border-radius: 4px;
+  padding: 0 30px 0 10px;
+  border: 1px solid rgba(111, 53, 24, 0.42);
+  border-radius: 5px;
   background: var(--white);
-  color: var(--header);
+  color: var(--theme);
   font-family: inherit;
   font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.google-translate-engine .goog-te-combo:focus {
+  outline: 0;
+  border-color: var(--theme);
+  box-shadow: 0 0 0 3px rgba(111, 53, 24, 0.14);
 }
 body {
   top: 0 !important;

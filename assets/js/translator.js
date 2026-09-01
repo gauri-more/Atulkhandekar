@@ -4,7 +4,7 @@ function googleTranslateElementInit() {
     // renders the scriptable select we need, so no "layout" option is passed here.
     new google.translate.TranslateElement({
         pageLanguage: "en",
-        includedLanguages: "en,mr",
+        includedLanguages: "en,mr,hi,bn,gu,kn,ml,pa,ta,te,ur,fr,de,es",
         autoDisplay: false
     }, "google_translate_element");
 }
@@ -17,7 +17,7 @@ function googleTranslateElementInit() {
 
         $toggle.toggleClass("is-marathi", isMarathi);
         $toggle.attr("aria-pressed", String(isMarathi));
-        $toggle.attr("aria-label", isMarathi ? "Switch language to English" : "Switch language to Marathi");
+        $toggle.attr("aria-label", "Choose language");
     }
 
     $(function () {
@@ -25,10 +25,11 @@ function googleTranslateElementInit() {
         var $translator = $("#google_translate_element");
         var isMarathi = document.cookie.indexOf("googtrans=/en/mr") !== -1;
 
+        $translator.appendTo(document.body);
         updateToggle(isMarathi);
 
         function hideGoogleBanner() {
-            $("iframe.goog-te-banner-frame, iframe.skiptranslate").css({
+            $("iframe.goog-te-banner-frame").css({
                 display: "none",
                 visibility: "hidden"
             });
@@ -47,7 +48,7 @@ function googleTranslateElementInit() {
         }
 
         function closeTranslator() {
-            $translator.removeClass("is-open").attr("aria-hidden", "true");
+            $translator.removeClass("is-open is-translating").attr("aria-hidden", "true");
             $toggle.attr("aria-expanded", "false");
         }
 
@@ -60,6 +61,7 @@ function googleTranslateElementInit() {
             $translator.addClass("is-open").attr("aria-hidden", "false");
             $toggle.attr("aria-expanded", "true");
             positionTranslator();
+            window.requestAnimationFrame(positionTranslator);
         });
 
         $(document).on("click", function (event) {
@@ -77,14 +79,20 @@ function googleTranslateElementInit() {
         $(window).on("resize scroll", function () {
             if ($translator.hasClass("is-open")) {
                 positionTranslator();
+                window.requestAnimationFrame(positionTranslator);
             }
         });
 
         $translator.on("change", ".goog-te-combo", function () {
+            if ($translator.hasClass("is-translating")) {
+                return;
+            }
+
             isMarathi = this.value === "mr";
             updateToggle(isMarathi);
-            closeTranslator();
+            $translator.addClass("is-translating");
             window.setTimeout(hideGoogleBanner, 0);
+            window.setTimeout(closeTranslator, 12000);
         });
 
         new MutationObserver(hideGoogleBanner).observe(document.body, {
