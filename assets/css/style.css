@@ -1,15 +1,15 @@
-.header-4 {
-    border-radius: 12px;
-    top: 40px;
-    background-color: #ffffffd8 !important;
-}
+/*.header-4 {*/
+/*    border-radius: 12px;*/
+/*    top: 40px;*/
+/*    background-color: #ffffffd8 !important;*/
+/*}*/
 .footer-widget-wrapper-1 .footer-widget-items .list-area li:hover a {
     font-weight: bold;
      color: var(--white); 
 }
-.sticky {
-    top: 40px !important;
-}
+/*.sticky {*/
+/*    top: 40px !important;*/
+/*}*/
 .hero-1 .hero-content h1 {
     font-size: 70px;
     line-height: 1.2
@@ -284,9 +284,7 @@
     top: 86%;
     right: 125px;
 }
-.header-4 {
-    border-radius: 12px;
-}
+
 .team-section-7 .style-7 {
         margin-top: 12px;
     }

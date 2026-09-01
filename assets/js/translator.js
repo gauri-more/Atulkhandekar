@@ -12,30 +12,6 @@ function googleTranslateElementInit() {
 (function ($) {
     "use strict";
 
-    function setLanguage(language, attempts) {
-        var translateSelect = document.querySelector(".goog-te-combo");
-
-        if (!translateSelect) {
-            if (attempts < 20) {
-                window.setTimeout(function () {
-                    setLanguage(language, attempts + 1);
-                }, 250);
-            }
-            return;
-        }
-
-        translateSelect.value = language === "en" ? "" : language;
-
-        if (typeof translateSelect.onchange === "function") {
-            translateSelect.onchange();
-            return;
-        }
-
-        var changeEvent = document.createEvent("HTMLEvents");
-        changeEvent.initEvent("change", true, true);
-        translateSelect.dispatchEvent(changeEvent);
-    }
-
     function updateToggle(isMarathi) {
         var $toggle = $("#language-toggle");
 
@@ -46,14 +22,74 @@ function googleTranslateElementInit() {
 
     $(function () {
         var $toggle = $("#language-toggle");
+        var $translator = $("#google_translate_element");
         var isMarathi = document.cookie.indexOf("googtrans=/en/mr") !== -1;
 
         updateToggle(isMarathi);
 
+        function hideGoogleBanner() {
+            $("iframe.goog-te-banner-frame, iframe.skiptranslate").css({
+                display: "none",
+                visibility: "hidden"
+            });
+            $("body").css("top", "0");
+        }
+
+        function positionTranslator() {
+            var buttonRect = $toggle[0].getBoundingClientRect();
+            var panelWidth = $translator[0].offsetWidth;
+            var left = Math.min(buttonRect.left, window.innerWidth - panelWidth - 12);
+
+            $translator.css({
+                top: (buttonRect.bottom + 8) + "px",
+                left: Math.max(12, left) + "px"
+            });
+        }
+
+        function closeTranslator() {
+            $translator.removeClass("is-open").attr("aria-hidden", "true");
+            $toggle.attr("aria-expanded", "false");
+        }
+
         $toggle.on("click", function () {
-            isMarathi = !isMarathi;
-            setLanguage(isMarathi ? "mr" : "en", 0);
+            if ($translator.hasClass("is-open")) {
+                closeTranslator();
+                return;
+            }
+
+            $translator.addClass("is-open").attr("aria-hidden", "false");
+            $toggle.attr("aria-expanded", "true");
+            positionTranslator();
+        });
+
+        $(document).on("click", function (event) {
+            if (!$(event.target).closest("#language-toggle, #google_translate_element").length) {
+                closeTranslator();
+            }
+        });
+
+        $(document).on("keydown", function (event) {
+            if (event.key === "Escape") {
+                closeTranslator();
+            }
+        });
+
+        $(window).on("resize scroll", function () {
+            if ($translator.hasClass("is-open")) {
+                positionTranslator();
+            }
+        });
+
+        $translator.on("change", ".goog-te-combo", function () {
+            isMarathi = this.value === "mr";
             updateToggle(isMarathi);
+            closeTranslator();
+            window.setTimeout(hideGoogleBanner, 0);
+        });
+
+        new MutationObserver(hideGoogleBanner).observe(document.body, {
+            childList: true,
+            subtree: true
         });
     });
 })(jQuery);
