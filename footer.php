@@ -167,7 +167,7 @@
                     </div>
                 </footer>
 
-                <div id="google_translate_element" class="google-translate-engine" aria-hidden="true"></div>
+                <div id="google_translate_element" class="google-translate-engine notranslate" aria-hidden="true" translate="no"></div>
 
 
             </div>

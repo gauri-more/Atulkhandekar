@@ -15874,14 +15874,37 @@ span {
 }
 .google-translate-engine {
   position: fixed;
-  left: -9999px;
-  top: 0;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  white-space: nowrap;
+  z-index: 10001;
+  display: none;
+  min-width: 168px;
+  padding: 10px;
+  border: 1px solid rgba(3, 40, 40, 0.18);
+  border-radius: 6px;
+  background: var(--white);
+  box-shadow: 0 12px 28px rgba(3, 40, 40, 0.18);
+}
+.google-translate-engine.is-open {
+  display: block;
+}
+.google-translate-engine .goog-te-gadget {
+  color: var(--header);
+  font-family: inherit;
+  font-size: 0;
+}
+.google-translate-engine .goog-te-gadget > span {
+  display: none;
+}
+.google-translate-engine .goog-te-combo {
+  width: 100%;
+  min-height: 34px;
+  margin: 0;
+  padding: 0 8px;
+  border: 1px solid rgba(3, 40, 40, 0.25);
+  border-radius: 4px;
+  background: var(--white);
+  color: var(--header);
+  font-family: inherit;
+  font-size: 13px;
 }
 body {
   top: 0 !important;
